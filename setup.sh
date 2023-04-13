@@ -94,7 +94,6 @@ mkdir payloads/android
 mkdir payloads/mac
 mkdir payloads/linux
 mkdir modules/msf_module/listner
-echo EMPATH > modules/msf_module/listner/payload.txt
 sleep 2 ; echo ; echo -e ${LIGHT_CYAN}
 str="Setting up the modules completed..."
 for ((i=0; i<${#str}; i++)); do
