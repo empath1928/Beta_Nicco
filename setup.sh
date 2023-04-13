@@ -70,11 +70,9 @@ for ((i=0; i<${#str}; i++)); do
 echo -n "${str:$i:1}"
 sleep 0.08
 done ; sleep 2 ; echo ; echo -e ${LIGHT_YELLOW}
-apt-get install python3 -y
-apt-get install pip -y
 apt-get install lolcat -y 
 apt-get install xterm -y
-pip install pyngrok  ; echo -e ${LIGHT_CYAN}
+echo -e ${LIGHT_CYAN}
 str="Download is completed of all requirements" 
 for ((i=0; i<${#str}; i++)); do
 echo -n "${str:$i:1}"
